@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="text-container">
+        <svg viewBox="0 0 100 100" class="flower-svg">
+            <path d="M50,90 Q50,60 50,40" stroke="#81c784" stroke-width="3" fill="none" />
+            <circle cx="50" cy="40" r="15" class="petal" fill="#f8bbd0" style="animation-delay:0.2s"/>
+            <circle cx="62" cy="48" r="15" class="petal" fill="#f8bbd0" style="animation-delay:0.4s"/>
+            <circle cx="38" cy="48" r="15" class="petal" fill="#f8bbd0" style="animation-delay:0.6s"/>
+            <circle cx="50" cy="40" r="8" fill="#fdd835" class="petal" style="animation-delay:1s"/>
+        </svg>
+
+        <div id="typing-sorry" class="typewriter"></div>
+        
+        <a href="index.html" class="back-link"> Revenir au menu</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        const message = "I owe you more than a simple text message I'm truly sorry baby I couldn't call you it wasn't fair to you I hate that mn fr toi feel ignored i broke a small but important trust between us and i promise to be  more thoughtful and honest going forward baba";
+        typeEffect('typing-sorry', message);
+    </script>
+</body>
+</html>
